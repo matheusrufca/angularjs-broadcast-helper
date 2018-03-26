@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "angular-broadcast-helper",
   "description": "An angularjs helper for broadcast and emit events.",
   "homepage": "https://github.com/matheusrufca/angularjs-broadcast-helper",
