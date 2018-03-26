@@ -1,24 +1,36 @@
 {
-  "name": "@portotech/angularjs-broadcast-helper",
+  "name": "@portotech/angular-broadcast-helper",
   "version": "1.0.0",
   "description": "An angularjs helper for broadcast and emit events.",
-  "main": "",
+  "homepage": "https://github.com/matheusrufca/angularjs-broadcast-helper",
+  "authors": [
+    "Matheus Rufca <matheus.rufca@portotech.org>"
+  ],
   "keywords": [
     "angularjs",
     "broadcast",
     "emit",
     "event"
   ],
-  "authors": [
-    "Matheus Rufca <matheus.rufca@portotech.org>"
-  ],
   "license": "ISC",
+  "main": "./dist/broadcast-helper.js",
   "man": "src/broadcast-helper.js",
+  "files": ["dist"],
+  "bugs": {
+    "url": "https://github.com/matheusrufca/angularjs-broadcast-helper/issues"
+  },
+  "scripts": {
+    "build": "gulp build"
+  },
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-uglify-js": "0.0.4",
     "pump": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matheusrufca/angularjs-broadcast-helper.git"
   }
 }

@@ -7,7 +7,6 @@
 
 	function BroadcastHelper($rootScope) {
 		var service = {};
-
 		
 
 		service.send = function (msg, data) {
