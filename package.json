@@ -1,6 +1,6 @@
 {
   "name": "@portotech/angular-broadcast-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An angularjs helper for broadcast and emit events.",
   "homepage": "https://github.com/matheusrufca/angularjs-broadcast-helper",
   "authors": [
