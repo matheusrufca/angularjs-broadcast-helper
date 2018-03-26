@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('ptt.utils')
+		.module('ptt.utils.broadcast-helper')
 		.factory('BroadcastHelper', ['$rootScope', BroadcastHelper]);
 
 	function BroadcastHelper($rootScope) {
